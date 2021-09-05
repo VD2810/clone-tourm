@@ -1,0 +1,171 @@
+/* Mobile & Tablet */
+@media (max-width: 1024px) {
+    :root {
+        --header-height: 133px;
+    }
+
+    .hide-on-tablet-mobile {
+        display: none;
+    }
+    
+    .show-on-tablet-mobile {
+        display: block;
+    }
+
+    .header__taplet-mobile {
+        display: block;
+    }
+
+    .banner-lider {
+        height: 431px;
+    }
+
+    .banner-lider:nth-child(1) {
+        background-position: 35%
+    }
+
+    .tour__sale {
+        margin-bottom: 30px;
+    }
+
+    .paris__experience-picture {
+        width: 100%;
+        transform: scale(1);
+    }
+
+    .paris__experience .margin-8-percent {
+        margin-left: 0;
+    }
+
+    .paris__experience-product-show {
+        width: 100%;
+        object-fit: cover;
+        top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 18px;
+    }
+
+    .paris__experience-picture-show {
+        width: 80%;
+        height: auto;
+    }
+
+    .paris__experience .m-6 {
+        text-align: center;
+    }
+    
+    .paris__experience {
+        margin-bottom: 65px;
+    }
+
+    .discount__banner {
+        margin-bottom: 30px;
+    }
+
+    .the__blog-item {
+        flex-direction: column;
+    }
+
+    .the__blog-item-picture {
+        width: unset;
+    }
+
+    .the__blog-item-picture-img {
+        width: 100%;
+    }
+
+    
+    .paris__experience-content-text {
+        margin-bottom: 0;
+    }
+
+    .paris__experience-content-text {
+        margin-top: 0;
+    }
+    
+    .paris__experience-content-btn {
+        display: inline-block;
+        padding: 8px 45px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    
+    .the__blog-item-btn {
+        top: -8px;
+    }
+    
+    .footer {
+        height: auto;
+        background-size: cover;
+        padding-bottom: 80px;
+        background-position: 50%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and ( max-width: 1023px){
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .banner-lider {
+        height: 592px;
+    }
+
+    .paris__experience-header {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .discount .grid.wide,
+    .paris__experience .grid.wide {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .paris__experience-picture-show {
+        width: 95%;
+        height: auto;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .paris__experience-header {
+        margin-left: 0;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    
+    .our__sevice {
+        padding: 0 20px;
+        padding-bottom: 130px;
+    }
+    
+    .our__sevice-item-picture {
+        width: 152px;
+    }
+    
+    .footer__licens,
+    .footer-message {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer__licens {
+        flex-direction: column;
+        padding left: 0;
+        padding right: 0;
+        height: auto;
+    }
+
+    .the__blog-item-content {
+        padding-bottom: 15px;
+    }
+}
